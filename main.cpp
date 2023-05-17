@@ -7,7 +7,7 @@
 
 int main() {
 	setlocale(LC_ALL, "ru");
-	std::cout << "\t—чЄтчик чисел\n" << std::endl;
+	std::cout << "\tСчетчик чисел\n" << std::endl;
 
 	MB::Functor functor;
 	std::vector<int> vector_int{ 4, 1, 3, 6, 25, 54 };
